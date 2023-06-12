@@ -1,0 +1,78 @@
+<!-- Flex Direction Classes 
+Flex class is used to set the item at any position 
+1. .flex-coloumn this will display the item vertically 
+2. .flex-nowrap this will used when you will create a div more than 12 grid then it will show in same line with horizontal scroll 
+3. flex-fill this will take a complete row  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Alignment </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Flex Direction</title>
+    <style>
+        .container{
+            border: 5px solid black;
+        }
+        .row{
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- flex coloumn  , coloumn-reverse , -->
+        <div class="row flex-column">
+            <div class="col-3" style="background-color: green;">
+                <h3>Col 1</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+            <div class="col-3" style="background-color: lightblue;">
+                <h3>Col 2</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and g</p>
+            </div>
+            <div class="col-3" style="background-color: pink;">
+                <h3>Col 3</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+            <div class="col-3" style="background-color: paleturquoise;">
+                <h3>Col 4</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+        </div> <br><br>
+ 
+        <!-- flex-nowrap -->
+
+        <div class="row flex-nowrap">
+            <div class="col-3" style="background-color: green;">
+                <h3>Col 1</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+            <div class="col-3" style="background-color: lightblue;">
+                <h3>Col 2</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and g</p>
+            </div>
+            <div class="col-3" style="background-color: pink;">
+                <h3>Col 3</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+            <div class="col-3" style="background-color: paleturquoise;">
+                <h3>Col 4</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+            <div class="col-5" style="background-color: paleturquoise;">
+                <h3>Col 5</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+            <div class="col-6" style="background-color: paleturquoise;">
+                <h3>Col 6</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
